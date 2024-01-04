@@ -10,18 +10,21 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 **Enter file in which to save the key (/Users/your_directory/.ssh/id_ed25519):**
 
 Enter the complete path as below:
-/Users/your_directory/.ssh/name_of_your_company_or_personal_account
+`/Users/your_directory/.ssh/name_of_your_company_or_personal_account`
 
 ## You will get a prompt to add a passphrase for more security
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
+1. Enter passphrase (empty for no passphrase): 
+2. Enter same passphrase again: 
 
 ## You will get a prompt as Your identification has been saved in the path given. There will be 2 files.
 
 ### private key:
-**/Users/your_directory/.ssh/name_of_your_company_or_personal_account**
+
+`/Users/your_directory/.ssh/name_of_your_company_or_personal_account`
+
 ### public key:
-**Your public key has been saved in /Users/your_directory/.ssh/name_of_your_company_or_personal_account.pub**
+
+`Your public key has been saved in /Users/your_directory/.ssh/name_of_your_company_or_personal_account.pub`
 
 ## Add the private key to the ssh-agent 
 `ssh-add ~/.ssh/name_of_your_company_or_personal_account`
